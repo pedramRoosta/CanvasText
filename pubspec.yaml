@@ -1,0 +1,30 @@
+name: canvas_core_module_text
+description: A new Flutter package project.
+version: 0.0.1
+author:
+homepage: canvas.yaama.tech
+publish_to: none
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  canvas_sdk:
+    path: ../canvas_sdk
+  uuid: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: OpenSansCondensed     
+      fonts:
+        - asset: assets/fonts/open_sans_condensed_light.ttf
+    - family: Roboto     
+      fonts:
+        - asset: assets/fonts/roboto_light.ttf
